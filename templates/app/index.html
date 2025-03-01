@@ -1,0 +1,368 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+<div class="col-lg-12 hero-video">
+    {% if video %}
+        <video autoplay muted loop id="background-video">
+            <source src="{{ video.video.url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    {% else %}
+        <p>No video available</p>
+    {% endif %}
+</div>
+
+
+<!-- <div class="col-lg-12 hero-video">
+    <video autoplay muted loop id="background-video">
+        <source src="{% static 'assets/videos/1.MP4' %}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div> -->
+<div id="wrapper">
+    <section id="content">
+        <!--  smooth scrolling biz goes in here -->
+            <div class="heading" aria-hidden="true">
+                <p>Al Panel</p>
+                <div class="text-container">
+                <p>Aluminium</p>
+                <p data-speed="0.95">Aluminium</p>
+                <p data-speed="0.9">Aluminium</p>
+                <p data-speed="0.85">Aluminium</p>           
+                </div>
+            </div>
+
+    
+            <section class="image-grid container">
+             
+                <div class="bars-text pl-5" style="margin-top:200px;">
+                    <div class="flow content">
+                        <h2>Lorem ipsum dolor</h2>
+                        <h1>Lorem ipsum dolor  </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="image_cont mt-5" data-speed="1.5">
+                    <img data-speed="auto"  src="{% static 'assets/images/12.jpg' %}" alt="">
+                </div>
+            </section>
+            
+            <section class="title container flow--lg" style="background-color: red;">
+                <h1><span class="eyebrow" aria-hidden="true">with </span>AL Panel Factory</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium iste eaque ipsam itaque pariatur quisquam!</p>
+            </section>
+        
+            <section class="bars container" style="height: 200px !important;">
+        
+                <div class="bars-text">
+                    <div class="flow content">
+                        <h2>Lorem ipsum dolor</h2>
+                        <h1>Lorem ipsum dolor  </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    
+                </div>
+                <div class="bar" data-speed="1.2">
+                    <img data-speed="auto" src="{% static 'assets/images/12.jpg' %}" alt="" style="width: 350px; height: 400px; object-fit: cover; border-radius: 20px;">
+                </div>
+                <div class="bars-cont">
+                    
+                    <div class="bar" data-speed="0.8">
+                        <p>Since</p>
+                    </div>
+                
+                    <div class="bar" data-speed="0.9">
+                        <p>1</p>
+                    </div>
+                
+                    <div class="bar" data-speed="1">
+                        <p>9</p>
+                    </div>
+                
+                    <div class="bar" data-speed="1.1">
+                        <p>8</p>
+                    </div>
+                
+                    <div class="bar" data-speed="1.2">
+                        <p>0</p>
+                    </div>
+                   
+
+                </div>
+        
+            </section>
+        
+
+
+            <section class="v-center">
+                <div class="parallax-slab">
+                    <img data-speed="auto" src="{% static 'assets/images/12.jpg' %}" alt="">
+                </div>
+            </section>
+        
+
+           <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="flow ">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque provident, laudantium debitis et tempora dignissimos repellat at recusandae quo?</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+            <section class="staggered container d-flex justify-content-end">
+                <div class="staggered_text" style="width: 600px;">
+                    <div class="flow content2" >
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus quas dignissimos odio, quibusdam obcaecati facilis veritatis eos eligendi commodi! Quasi sequi dolores tenetur hic magni accusamus, dignissimos deleniti aliquid accusantium reiciendis rem officia obcaecati magnam voluptas eligendi modi corporis. Sapiente.</p>
+                        
+                    </div>
+                </div>
+                <div class="staggered_demo">
+                    <h3 id="split-stagger">AL Panel...</h3>
+                </div>
+            </section>
+            <section class="title container flow--lg" style="background-color: red;">
+                <h1><span class="eyebrow" aria-hidden="true">with </span>AL Panel Factory</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo enim natus voluptas corrupti. Perferendis, neque inventore veritatis nihil provident temporibus.</p>
+            </section>
+
+
+            <section class="slider-section">
+                <div class="parallax-slab container d-flex justify-content-center" style="padding-right: 10px;">
+                    <img data-speed="auto" src="{% static 'assets/images/12.jpg' %}" alt="">
+                </div>
+            </section>
+
+
+            <!-- <section class="parallax-images container">
+                <div class="parallax-text">
+                    <div class="flow content">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, nesciunt iusto! Esse, exercitationem molestiae quasi hic eius suscipit adipisci non.</p>
+                    </div>
+                </div>
+                <div class="image_cont">
+                    <img data-speed="auto" src="images/12.jpg" alt="">
+                </div>
+                <div class="image_cont">
+                    <img data-speed="auto" src="images/12.jpg" alt="">
+                </div>
+            </section> -->
+        
+
+
+
+
+
+            <div id="page" class="site">
+
+                <div id="feather" class="feather"></div>
+            
+                <main id="content" class="site-content" role="main">
+                
+                    <!-- <section id="intro" class="full-screen pt-5 gradient-orange"> 
+                        <h1>A title</h1>
+                        <div id="clouds-layer-1" class="clouds"></div>
+                        <div id="clouds-layer-2" class="clouds"></div>
+                    </section> -->
+            
+                    <section id="panels">
+                
+                        <div id="panels-container" style="width: 500%; ">
+                            <article id="panel-1" class="panel full-screen gradient-green" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <img src="{% static 'assets/images/12.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column mt-5">
+                                            <h2 >Panel 1</h2>
+                                            <p class="step-description">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article id="panel-2" class="panel full-screen gradient-green" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <img src="{% static 'assets/images/12.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column mt-5">
+                                            <h2>Panel 2</h2>
+                                            <p class="step-description">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article id="panel-3" class="panel full-screen gradient-green" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <img src="{% static 'assets/images/12.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column mt-5">
+                                            <h2>Panel 3</h2>
+                                            <p class="step-description">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article id="panel-4" class="panel full-screen gradient-green" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <img src="{% static 'assets/images/12.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column mt-5">
+                                            <h2>Panel 4</h2>
+                                            <p class="step-description">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article id="panel-5" class="panel full-screen gradient-green" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <img src="{% static 'assets/images/12.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column mt-5">
+                                            <h2>Panel 5</h2>
+                                            <p class="step-description">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- <article id="panel-2" class="panel full-screen gradient-blue"  style="background: url('images/12.jpg') no-repeat center center/cover;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="col-6 d-flex flex-column">
+                                            <h2>Panel 2</h2>
+                                            <p class="step-description">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> -->
+                            
+                           
+
+
+
+
+                           
+                        </div>
+                    </section>
+            
+                
+                    <section id="contact">
+
+                        <h1 class="section-header">Contact</h1>
+                        
+                        <div class="container contact-wrapper">
+                        
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6">
+
+                                    <!-- Left contact page --> 
+                          
+                                    <form id="contact-form" class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                        <div class="col-sm-12" >
+                                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                                        </div>
+                                        </div>
+                                
+                                        <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                                        </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <button class="btn send-button" id="submit" type="submit" value="SEND">
+                                            <div class="alt-send-button">
+                                                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                                            </div>
+
+                                        </button>
+
+                                    </form>
+                          
+                                </div>
+                                <div class="col-lg-6">
+                                    <!-- Right contact page --> 
+                                    <div class="direct-contact-container">
+                                        <ul class="contact-list">
+                                        <li class="list-item"><i class="fa fa-location fa-2x"><span class="contact-text place">City, State</span></i></li>
+                                        
+                                        <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                                        
+                                        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+                                        
+                                        </ul>
+                                
+                                        <hr>
+                                        <ul class="social-media-list">
+                                        <li><a href="#" target="_blank" class="contact-icon">
+                                                <i class="fa-brands fa-github"  aria-hidden="true"></i>
+                                        </i></a>
+                                        </li>
+                                        <li><a href="#" target="_blank" class="contact-icon">
+                                            <i class="fa-brands fa-codepen" aria-hidden="true"></i>
+                                        </i></a>
+                                        </li>
+                                        <li><a href="#" target="_blank" class="contact-icon">
+                                            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                                        </li>
+                                        <li><a href="#" target="_blank" class="contact-icon">
+                                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                                        </i></a>
+                                        </li>       
+                                        </ul>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      </section>  
+                        
+                        
+            
+                </main>
+                <section id="map" class="full-screen gradient-orange"></section>
+            </div>
+
+
+            
+            <section class="spacer"></section>
+    </section>
+</div>
+{% endblock content %}
